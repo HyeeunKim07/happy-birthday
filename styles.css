@@ -1,0 +1,78 @@
+/* 공통 스타일 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fae1dd;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+/* 네비게이션 링크 스타일 */
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-bottom: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #003049;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 편지 페이지 스타일 */
+.letter-container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.letter-content {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.letter-heading {
+  margin-bottom: 10px;
+}
+
+.letter-from {
+  margin-bottom: 20px;
+}
+
+/* 유튜브 영상 페이지 스타일 */
+.youtube-container {
+  max-width: 800px;
+  margin: 20px auto; /* 중앙 정렬 및 위아래 여백 추가 */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
